@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Code Review Log" max_length="40" name="x_code_review_trac_code_review_log" type="collection">
+        <element choice="1" label="Decision" max_length="200" name="decision" type="choice">
+            <choice>
+                <element label="Approved" value="Approved"/>
+                <element label="Resolve Concerns and resubimitt for Review" value="Resolve Concerns and resubimitt for Review"/>
+                <element label="Resolve Minor Concern without further review" value="Resolve Minor Concern without further review"/>
+            </choice>
+        </element>
+        <element label="File Name" max_length="100" name="file_name" type="string"/>
+        <element choice="2" label="Requester Name" max_length="32" name="requester_name" reference="x_code_review_trac_requester_details" type="reference">
+            <choice/>
+        </element>
+        <element choice="2" label="Reviewer Name" max_length="32" name="reviewer_name" reference="x_code_review_trac_reviewer_details" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="Status" max_length="200" name="status" type="choice">
+            <choice>
+                <element label="Complete" value="Complete"/>
+                <element label="In Progress" value="In Progress"/>
+                <element label="Requested" value="Requested"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="reviewer_name"/>
+        </index>
+        <index name="index2">
+            <element name="requester_name"/>
+        </index>
+    </element>
+</database>

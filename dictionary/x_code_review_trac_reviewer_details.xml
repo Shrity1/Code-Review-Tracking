@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Reviewer Details" max_length="40" name="x_code_review_trac_reviewer_details" type="collection">
+        <element default="Engineering" label="Department" max_length="20" name="department" type="string"/>
+        <element label="Name" max_length="200" name="name" type="string"/>
+        <element default="0" label="Number of Files" max_length="40" name="number_of_files" type="integer"/>
+    </element>
+</database>

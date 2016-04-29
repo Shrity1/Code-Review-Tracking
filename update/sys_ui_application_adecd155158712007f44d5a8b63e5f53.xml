@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>Code Review Log</name>
+        <order/>
+        <roles/>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-04-26 20:47:16</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>adecd155158712007f44d5a8b63e5f53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Code Review Log</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Code Review Tracking" source="x_code_review_trac">b49ad115158712007f44d5a8b63e5f88</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Code Review Tracking">b49ad115158712007f44d5a8b63e5f88</sys_scope>
+        <sys_update_name>sys_ui_application_adecd155158712007f44d5a8b63e5f53</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-04-26 20:47:16</sys_updated_on>
+    </sys_ui_application>
+</record_update>
